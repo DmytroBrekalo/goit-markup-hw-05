@@ -87,7 +87,10 @@ img{
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration-line: none;
+    text-decoration-line: none; 
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .site-nav .link{
     display: block;
@@ -125,6 +128,9 @@ img{
 
 .contact-icon {
     fill: var(--main-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-link{
@@ -319,10 +325,16 @@ button{
     align-items: center;
     justify-content: center;
     fill: #FFFFFF;
+    transition-property: background;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon{
     fill: #AFB1B8;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-circle:hover .social-icon,
@@ -355,12 +367,18 @@ button{
     border-radius: 4px;
     align-items: center;
     justify-content: center;
+    transition-property: border-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-icon{
     fill: #AFB1B8;
     width: 106px;
     height: 60px;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-link:hover .client-icon,
@@ -397,6 +415,9 @@ address{
     color: rgba(255, 255, 255, 0.6);
     line-height: 1.71;
     text-decoration-line: none;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-foot .map{
@@ -451,7 +472,6 @@ address{
 
 .button-filters{
     padding: 6px 22px;
-    border-radius: 4px;
     border-color: transparent;
     background-color: #F5F4FA;
     color: var(--title-text-color);
@@ -461,6 +481,9 @@ address{
     text-align: center;
     cursor: pointer;
     border-radius: 4px;
+    transition-property: color, background-color, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-filters:hover,
@@ -505,6 +528,9 @@ address{
 .card .item{
     margin-right: 30px;
     margin-bottom: 30px;
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card .item:hover{
