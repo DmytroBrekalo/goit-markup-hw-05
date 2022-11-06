@@ -666,9 +666,9 @@ address{
     border-radius: 50px;
 }
 
-.item:hover .overlay{
+/* .item:hover .overlay{
     transform: translateY(0%);
-}
+} */
 
 .modal-close-button:hover,
 .modal-close-button:focus{
